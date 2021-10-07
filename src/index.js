@@ -2,12 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import ClassApp from './ClassApp';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App /> 
+    <ClassApp />
   </React.StrictMode>,
+  // public/index.html 의 id가 root인 리액트 컴포넌트를 렌더링하라
   document.getElementById('root')
 );
 
